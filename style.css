@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+  background: #f0f8ff;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+}
+
+#scoreBoard {
+  font-size: 24px;
+  text-align: center;
+  padding: 20px;
+}
+
+#critter {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background: #f33;
+  border-radius: 50%;
+  display: none;
+  cursor: pointer;
+}
